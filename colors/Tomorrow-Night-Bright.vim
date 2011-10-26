@@ -1,0 +1,1 @@
+/Users/jinpu/Documents/GITHUB/Tomorrow-Theme/vim/Tomorrow-Night-Bright.vim

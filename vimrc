@@ -12,7 +12,6 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set encoding=utf-8
 set scrolloff=3
 set autoindent
 set showmode
@@ -111,3 +110,7 @@ let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 set foldlevelstart=0
 nnoremap <Space> za
 vnoremap <Space> za
+
+" encoding
+set encoding=utf-8
+set fileencodings=utf-8,gb18030,utf-16

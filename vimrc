@@ -51,14 +51,6 @@ set textwidth=79
 set formatoptions=qrn1
 set colorcolumn=85
 
-nnoremap <up> <Nop>
-nnoremap <down> <Nop>
-nnoremap <left> <Nop>
-nnoremap <right> <Nop>
-inoremap <up> <Nop>
-inoremap <down> <Nop>
-inoremap <left> <Nop>
-inoremap <right> <Nop>
 nnoremap j gj
 nnoremap k gk
 
@@ -105,7 +97,6 @@ set backup                        " enable backups
 nnoremap <F2> :NERDTreeToggle<CR>
 let NERDTreeIgnore=['.vim$', '\~$', '.*\.pyc$', 'pip-log\.txt$']
 
-
 " Folding
 set foldlevelstart=0
 nnoremap <Space> za
@@ -114,3 +105,6 @@ vnoremap <Space> za
 " encoding
 set encoding=utf-8
 set fileencodings=utf-8,gb18030,utf-16
+
+" Session Manager
+nnoremap <F4> :SessionList<CR>

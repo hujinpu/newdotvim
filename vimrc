@@ -108,3 +108,4 @@ set fileencodings=utf-8,gb18030,utf-16
 
 " Session Manager
 nnoremap <F4> :SessionList<CR>
+nnoremap <F5> :SessionSave<CR>

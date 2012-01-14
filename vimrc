@@ -6,7 +6,7 @@ set nocompatible
 
 " Color scheme
 syntax on
-colorscheme Tomorrow-Night-Bright
+"colorscheme Tomorrow-Night-Bright
 
 set tabstop=4
 set shiftwidth=4
